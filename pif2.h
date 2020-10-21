@@ -1,6 +1,6 @@
 const int INF = 1e+9;
 const int MAXN= 1e+5;
-int d[100000];//d[MAXN]
+int d[100000];/*d[MAXN]*/
 
 typedef struct {
 	int city_no;
