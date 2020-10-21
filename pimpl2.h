@@ -33,11 +33,11 @@ void insert(citygraph *t)
 		(t->a[fcity])->next=NULL;
 		t->size++;
 	}	
-	printf("\nDo you want to make any connections(1 if yes):");
+	printf("\nDo you want to make any connections(1 if yes) : ");
 	scanf("%d",&ch);
 	while(ch==1)
 	{
-	printf("\nEnter the city to which edge has to be made:");
+	printf("\nEnter the city to which edge has to be made : ");
 	scanf("%d",&tcity);
 	printf("\nEnter distance between them : ");
 	scanf("%d",&dist);
