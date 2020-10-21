@@ -10,7 +10,7 @@ void main()
 	citygraph *t=initgraph();
 	int ch;
 	do{
-		printf("\n      ~~~~MENU:\n1. Display\n2. Insert\n3. Delete\n4. Dijkstras\n5. Exit\n~~~~~~~~~~~~~\nEnter your choice: ");
+		printf("\n     ~~~~MENU:\n1. Display\n2. Insert\n3. Delete\n4. Dijkstras\n5. Exit\n~~~~~~~~~~~~~\nEnter your choice: ");
 		
 		scanf("%d",&ch);
 		if(ch==2){
